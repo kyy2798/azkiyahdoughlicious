@@ -928,7 +928,7 @@
           },
           price: 45000,
           image:
-            "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=800&q=80",
+            "https://www.primarasa.co.id/images/images/kulit%20macaron.jpg",
         },
         {
           id: 6,
