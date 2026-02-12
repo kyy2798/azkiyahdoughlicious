@@ -8,7 +8,8 @@ const products = [
       it: "Croissant alle Mandorle",
     },
     price: 25000,
-    image src="croissant almond.jpg",
+    image:
+      "https://i.pinimg.com/originals/ef/f2/3e/eff23e936f25796aa4a732786473fc8b.jpg",
   },
   {
     id: 2,
@@ -18,13 +19,15 @@ const products = [
       it: "Pain au Chocolat",
     },
     price: 22000,
-    image src="pain au.jpg",
+    image:
+      "https://th.bing.com/th/id/OIP.Fc5B1CObarCPZqBRE6PMZQHaJQ?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
   },
   {
     id: 3,
     name: { id: "Danish Keju", en: "Cheese Danish", it: "Danish al Formaggio" },
     price: 28000,
-    image src="danish.jpg",
+    image:
+      "https://tse4.mm.bing.net/th/id/OIP.DmSMZbEWWTJuBUvDJCAD0QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
   },
   {
     id: 4,
@@ -34,7 +37,8 @@ const products = [
       it: "Éclair al Cioccolato",
     },
     price: 32000,
-    image src="eclair.jpg",
+    image:
+      "https://thescranline.com/wp-content/uploads/2023/01/CHOCOLATE-ECLAIRS-WEB-04.jpg",
   },
   {
     id: 5,
@@ -44,7 +48,8 @@ const products = [
       it: "Macaron Assortiti",
     },
     price: 45000,
-    image src="macaron.jpg",
+    image:
+      "https://www.primarasa.co.id/images/images/kulit%20macaron.jpg",
   },
   {
     id: 6,
@@ -54,7 +59,8 @@ const products = [
       it: "Crostata di Fragole",
     },
     price: 38000,
-    image src="tart stroberi.jpg",
+    image:
+      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1465&q=80",
   },
   // Menu tambahan 1-6
   {
@@ -65,7 +71,8 @@ const products = [
       it: "Torta al Cioccolato Belga",
     },
     price: 150000,
-    image src="bolu coklat.jpg",
+    image:
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1389&q=80",
   },
   {
     id: 8,
@@ -75,7 +82,8 @@ const products = [
       it: "Tiramisù Classico",
     },
     price: 42000,
-    image src="tiramisu.jpg",
+    image:
+      "https://tse1.mm.bing.net/th/id/OIP.e2gI-cGefgkJ0D_MQIcbZQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
   },
   {
     id: 9,
@@ -85,7 +93,8 @@ const products = [
       it: "Cheesecake New York",
     },
     price: 65000,
-    image src="cheesecake.jpg",
+    image:
+      "https://mujermexico.com/wp-content/uploads/2023/07/cheesecake-origen.jpg",
   },
   {
     id: 10,
@@ -95,7 +104,7 @@ const products = [
       it: "Pavlova ai Frutti di Bosco",
     },
     price: 48000,
-    image src="pavlova.jpg",
+    image: "https://athomedishes.com/assets/images/1740391778375-nm2jhrf4.webp",
   },
   {
     id: 11,
@@ -105,7 +114,7 @@ const products = [
       it: "Canelé di Bordeaux",
     },
     price: 18000,
-    image src="canele.jpg",
+    image: "https://i.ytimg.com/vi/tHe7rxHgflk/maxresdefault.jpg",
   },
   {
     id: 12,
@@ -115,7 +124,8 @@ const products = [
       it: "Financier al Miele",
     },
     price: 15000,
-    image src="financier.jpg",
+    image:
+      "https://therecipemaster.com/wp-content/uploads/2025/01/financier-recipe.webp",
   },
 ];
 
@@ -701,4 +711,3 @@ function initApp() {
 
 // Jalankan aplikasi saat DOM siap
 document.addEventListener("DOMContentLoaded", initApp);
-
